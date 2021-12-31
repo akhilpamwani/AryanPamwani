@@ -71,12 +71,12 @@ display: none;
         width: 100%;
     }
     .btn-Hamburger {
-        width: 60px;
+        width: 50px;
         justify-content: end;
         margin: auto;
         margin-top: -70px;
         /* margin: auto; */
-        margin-right: 5px;
+        margin-right: 15px;
     }
     .Hamburger {
         margin: auto;

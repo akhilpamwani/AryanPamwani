@@ -2,10 +2,10 @@ import React from 'react'
 import '../assets/css/Skill.css'
 
 export const Skill = () => {
+  
     return (
-   
         <>
-         <div className="Full" id="Skill" data-aos="fade-down" >
+         <div className="Full" id="Skill" data-aos="fade-down"  data-aos="fade-up-right">
         <div className="Skill-h3-logo">
             <h3 className="Skill-h3-logo">Skills</h3>
             <p className="Skill-p">My Skills</p> </div>

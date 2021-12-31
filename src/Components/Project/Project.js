@@ -9,7 +9,7 @@ import imgicon from'../assets/img/right.png'
 
 import '../assets/css/Projects.css'
 export const Project = () => {
-    
+  
     return (
         <>
       <div className="Project-intro">
@@ -31,7 +31,7 @@ export const Project = () => {
 
 
             <section className="Project" id='Project'>
-<div className="Project-Control">
+<div className="Project-Control"data-aos="zoom-in" >
             <Carousel>
   <Carousel.Item>
 <div className="Project-box">

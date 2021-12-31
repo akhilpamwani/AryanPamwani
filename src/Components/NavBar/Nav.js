@@ -19,12 +19,12 @@ export const Nav = (props) => {
               <div className="Logo">
               <NavLink to="/" className="Nav-anchr"><img src={Logo} className='Nav-img' alt="" srcSet={Logo} /></NavLink></div>
               <ul className="Nav-ul">
-                    <li className="Nav-Li"><NavLink to="/" className="Nav-anchr Nav-anchr-dark ">Home</NavLink></li>
-                    <li className="Nav-Li"><NavLink to="/" className="Nav-anchr Nav-anchr-dark ">About</NavLink></li>
-                    <li className="Nav-Li"><NavLink to="/" className="Nav-anchr Nav-anchr-dark ">Skills</NavLink></li>
-                    <li className="Nav-Li"><NavLink to="/" className="Nav-anchr Nav-anchr-dark ">Services</NavLink></li>
-                    <li className="Nav-Li"><NavLink to="/" className="Nav-anchr Nav-anchr-dark ">Portfolio</NavLink></li>
-                    <li className="Nav-Li"><NavLink to="/" className="Nav-anchr Nav-anchr-dark ">Get in touch</NavLink></li>
+                    <li className="Nav-Li"><a  className="Nav-anchr Nav-anchr-dark " href="#Home">Home</a></li>
+                    <li className="Nav-Li"><a  className="Nav-anchr Nav-anchr-dark " href="#About">About</a></li>
+                    <li className="Nav-Li"><a  className="Nav-anchr Nav-anchr-dark " href="#Skill">Skills</a></li>
+                    <li className="Nav-Li"><a  className="Nav-anchr Nav-anchr-dark " href="#Services">Services</a></li>
+                    <li className="Nav-Li"><a  className="Nav-anchr Nav-anchr-dark " href="#Project">Projects</a></li>
+                    <li className="Nav-Li"><a  className="Nav-anchr Nav-anchr-dark " href="#Contact">Get in touch</a></li>
 
               </ul>
               <div className="Social">

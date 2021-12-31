@@ -23,16 +23,16 @@ export const NavResponsive = (props) => {
 
               
                 <ul className={status?"Nav-ul-Resp": "Nav-ul-Resp-cl"}>
-                    <li className="Nav-Li-Resp"><a href="/" className="Nav-anchr-resp">Home</a></li>
-                    <li className="Nav-Li-Resp"><a href="/" className="Nav-anchr-resp">About</a></li>
-                    <li className="Nav-Li-Resp"><a href="/" className="Nav-anchr-resp">Skill</a></li>
-                    <li className="Nav-Li-Resp"><a href="/" className="Nav-anchr-resp">Services</a></li>
-                    <li className="Nav-Li-Resp"><a href="/" className="Nav-anchr-resp">Portfolio</a></li>
+                    <li className="Nav-Li-Resp"><a href="#Home" onClick={()=>setStatus(!status)} className="Nav-anchr-resp">Home</a></li>
+                    <li className="Nav-Li-Resp"><a href="#About"onClick={()=>setStatus(!status)} className="Nav-anchr-resp">About</a></li>
+                    <li className="Nav-Li-Resp"><a href="#Skill"onClick={()=>setStatus(!status)} className="Nav-anchr-resp">Skill</a></li>
+                    <li className="Nav-Li-Resp"><a href="#Services"onClick={()=>setStatus(!status)} className="Nav-anchr-resp">Services</a></li>
+                    <li className="Nav-Li-Resp"><a href="#Project"onClick={()=>setStatus(!status)} className="Nav-anchr-resp">Project</a></li>
                     <div className="Social-resp">
                  <a href="https://github.com/akhilpamwani/" className='Nav-anch-resp'> <img src={githubresp} alt='img' srcSet={githubresp} className="Social-icons-resp" /></a>
                  <a href="https://www.linkedin.com/in/aryan-pamwani-8771161a6/" className='Nav-anchr-resp'><img alt='img' src={linkedinresp}  srcSet={linkedinresp} className="Social-icons-resp" /></a> 
                  <a href="https://www.instagram.com/aryanpamwani.official/" className='Nav-anchr-resp'><img alt='img' src={instagramresp} srcSet={instagramresp} className="Social-icons-resp" /></a> 
-                  <img src={darkmoderesp}   srcSet={darkmoderesp}  alt="img" className="Social-icons-resp" />
+                  <img src={darkmoderesp} srcSet={darkmoderesp} onClick={props.button} alt="img" className="Social-icons-resp" />
               </div>
                 </ul>
             </nav>

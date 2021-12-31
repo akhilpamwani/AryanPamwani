@@ -1,7 +1,7 @@
 
 .Project-intro {
     justify-content: center;
-    margin: auto;
+    margin: 125px auto !important;
     display: flex;
     flex-direction: column;
     /* text-align: center; */
